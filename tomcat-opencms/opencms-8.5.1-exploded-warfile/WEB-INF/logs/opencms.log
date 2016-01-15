@@ -1,0 +1,106 @@
+15 Jan 2016 08:44:47,161  INFO [       org.opencms.main.CmsLog: 117] . Log4j config file    : /usr/local/tomcat/webapps/opencms/WEB-INF/classes/log4j.properties
+15 Jan 2016 08:44:48,719  INFO [.opencms.i18n.CmsLocaleManager: 372] . i18n configuration   : the JVM default locale is "en"
+15 Jan 2016 08:44:48,719  INFO [.opencms.i18n.CmsLocaleManager: 372] . i18n configuration   : the JVM default locale is "en"
+15 Jan 2016 08:44:48,724  INFO [  org.opencms.main.OpenCmsCore:2528] . Runlevel change      : Switching from 1 to 2
+15 Jan 2016 08:44:48,726 ERROR [  org.opencms.main.OpenCmsCore: 341] Critical error during OpenCms initialization: The OpenCms setup wizard is still enabled.
+org.opencms.main.CmsException: Critical error during OpenCms initialization: The OpenCms setup wizard is still enabled.
+	at org.opencms.main.OpenCmsCore.setErrorCondition(OpenCmsCore.java:341)
+	at org.opencms.main.CmsInitException.setErrorCondition(CmsInitException.java:113)
+	at org.opencms.main.CmsInitException.<init>(CmsInitException.java:70)
+	at org.opencms.main.CmsInitException.<init>(CmsInitException.java:56)
+	at org.opencms.main.OpenCmsCore.initContext(OpenCmsCore.java:1339)
+	at org.opencms.main.OpenCmsCore.upgradeRunlevel(OpenCmsCore.java:1926)
+	at org.opencms.main.OpenCmsListener.contextInitialized(OpenCmsListener.java:84)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5077)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5591)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1263)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1975)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+15 Jan 2016 08:44:48,727 ERROR [g.opencms.main.OpenCmsListener:  88] Critical error during OpenCms initialization: The OpenCms setup wizard is still enabled.
+org.opencms.main.CmsInitException: Critical error during OpenCms initialization: The OpenCms setup wizard is still enabled.
+	at org.opencms.main.OpenCmsCore.initContext(OpenCmsCore.java:1339)
+	at org.opencms.main.OpenCmsCore.upgradeRunlevel(OpenCmsCore.java:1926)
+	at org.opencms.main.OpenCmsListener.contextInitialized(OpenCmsListener.java:84)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5077)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5591)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1263)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1975)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+15 Jan 2016 08:44:48,733  INFO [.opencms.i18n.CmsLocaleManager: 372] . i18n configuration   : the JVM default locale is "en"
+15 Jan 2016 08:44:48,734  INFO [  org.opencms.main.OpenCmsCore:2528] . Runlevel change      : Switching from 1 to 2
+15 Jan 2016 08:44:48,735 ERROR [  org.opencms.main.OpenCmsCore: 341] Critical error during OpenCms initialization: The OpenCms setup wizard is still enabled.
+org.opencms.main.CmsException: Critical error during OpenCms initialization: The OpenCms setup wizard is still enabled.
+	at org.opencms.main.OpenCmsCore.setErrorCondition(OpenCmsCore.java:341)
+	at org.opencms.main.CmsInitException.setErrorCondition(CmsInitException.java:113)
+	at org.opencms.main.CmsInitException.<init>(CmsInitException.java:70)
+	at org.opencms.main.CmsInitException.<init>(CmsInitException.java:56)
+	at org.opencms.main.OpenCmsCore.initContext(OpenCmsCore.java:1339)
+	at org.opencms.main.OpenCmsCore.upgradeRunlevel(OpenCmsCore.java:1926)
+	at org.opencms.main.OpenCmsServlet.init(OpenCmsServlet.java:241)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5327)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5617)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1263)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1975)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+15 Jan 2016 08:44:52,765  INFO [.opencms.i18n.CmsLocaleManager: 372] . i18n configuration   : the JVM default locale is "en"
+15 Jan 2016 08:58:29,247  INFO [  org.opencms.main.OpenCmsCore:1690] .
+15 Jan 2016 08:58:29,247  INFO [  org.opencms.main.OpenCmsCore:1691] .
+15 Jan 2016 08:58:29,247  INFO [  org.opencms.main.OpenCmsCore:1692] .                      ...............................................................
+15 Jan 2016 08:58:29,247  INFO [  org.opencms.main.OpenCmsCore:1693] . Performing shutdown  : 8.5.1
+15 Jan 2016 08:58:29,248  INFO [  org.opencms.main.OpenCmsCore:1696] . Current runlevel     : 1
+15 Jan 2016 08:58:29,248  INFO [  org.opencms.main.OpenCmsCore:1699] . Shutdown time        : Jan 15, 2016 8:58:29 AM
+15 Jan 2016 08:58:29,249  INFO [  org.opencms.main.OpenCmsCore:2528] . Runlevel change      : Switching from 1 to 0
+15 Jan 2016 08:58:29,249 ERROR [  org.opencms.main.OpenCmsCore:1716] Error during publish manager shutdown: org/opencms/publish/CmsPublishEngine
+java.lang.NoClassDefFoundError: org/opencms/publish/CmsPublishEngine
+	at org.opencms.main.OpenCmsCore.shutDown(OpenCmsCore.java:1714)
+	at org.opencms.main.OpenCmsListener.contextDestroyed(OpenCmsListener.java:65)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5124)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5786)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4090)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1542)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1515)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1713)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1373)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1545)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1555)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1523)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.opencms.publish.CmsPublishEngine
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1856)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	... 17 more
+15 Jan 2016 08:58:29,249  INFO [  org.opencms.main.OpenCmsCore:1814] . OpenCms stopped!     : Total uptime was 00:13:36
+15 Jan 2016 08:58:29,250  INFO [  org.opencms.main.OpenCmsCore:1815] .                      ...............................................................
+15 Jan 2016 08:58:29,250  INFO [  org.opencms.main.OpenCmsCore:1816] .
+15 Jan 2016 08:58:29,250  INFO [  org.opencms.main.OpenCmsCore:1817] .
